@@ -1,12 +1,18 @@
             //comandos mais importantes no git//
 * inciando um repo
- -git init
- -git add ./nome do arquivo
- -git commit -a -m "mensagem de commit"
- -git branch -m "novo nome da branch"
- -git remote add "nome para o branch remoto" (link do repo no github)
- -git push origin main
+ - git init
+ - git add ./nome do arquivo
+ - git commit -a -m "mensagem de commit"
+ - git branch -m "novo nome da branch"
+ - git remote add "nome para o branch remoto" (link do repo no github)
+ - git push origin main
              ou
- -git clone (link do repo no github)
+ - git clone (link do repo no github)
 
-* 
+* outros comandos importantes
+ - git rm "nome do arquivo"
+ - git log e ...
+ - git mv "nome do arquivo" (serve para mover e renomear arquivos)
+ - git chekout "nome do arquivo" (volta para o estado original do ultimo push)
+ - git reset --hard (volta todos os arquivos para o estdaoo original do ultimo push)
+ - git 
