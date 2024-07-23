@@ -1,0 +1,12 @@
+            //comandos mais importantes no git//
+* inciando um repo
+ -git init
+ -git add ./nome do arquivo
+ -git commit -a -m "mensagem de commit"
+ -git branch -m "novo nome da branch"
+ -git remote add "nome para o branch remoto" (link do repo no github)
+ -git push origin main
+             ou
+ -git clone (link do repo no github)
+
+* 
