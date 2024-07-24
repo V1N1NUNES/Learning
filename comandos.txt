@@ -23,4 +23,13 @@
  -git branch "nome da branch"
  -git branch (mostra todas as branch criadas)
  -git branch -d "nome do branch que quer deletar" (deleta a branch em que vc está)
- -git 
+ -git checkout "nome da branch que deseja mudar" (muda de para a branch selecionada)
+ -git checkout -b "nome da nova branch" (cria uma outra branch e alterna para ela)
+ -git merge "nome do branch que deseja mesclar" (junta os branch) //AVISO// (ter cuidado na mesclagem das branch com a main pois a main é o "codigo certo") 
+
+
+* usando o "git stash" 
+ -git stash (guarda o codigo atual em uma "caixa" ,... e volta o uiltimo commit/pull/criação dessa branch apartir da branch principal)
+ -git stash list (ver todos os stash's feitos ...)
+ -git stash apply "mumero da stash" (recupera o codigo que estava nessa stash)
+ -git stash show -p "nome da branch" (mostra as diferenças do codigo atual para o codigo da stash selecionada)
