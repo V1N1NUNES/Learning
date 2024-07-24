@@ -20,4 +20,7 @@
 
 
 * usando branch's
+ -git branch "nome da branch"
+ -git branch (mostra todas as branch criadas)
+ -git branch -d "nome do branch que quer deletar" (deleta a branch em que vc está)
  -git 
