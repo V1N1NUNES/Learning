@@ -1,3 +1,7 @@
-//codigo no poderosissimo C
+#include <stdio.h>
 
-//tinha errado agora concertei "joia"
+int main (){
+    printf("Algum codigo ai que eu fiz...\n");
+
+    return 0;
+}
