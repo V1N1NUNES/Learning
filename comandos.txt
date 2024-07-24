@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
             //comandos mais importantes no git//
 * inciando um repo
  - git init
@@ -36,3 +37,4 @@
  -git stash drop "nome da stash" (remove a stash)
  -git stash clear (remove todas as stash's que existem)
  -git 
+

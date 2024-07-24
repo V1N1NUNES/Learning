@@ -3,9 +3,21 @@
 
 
 #include <stdio.h>
+#include <math.h>
 
+//função para calcular a raiz quadrada
+float quad(float a){
+    float resultado;
+    resultado= sqrt(a);
+    return resultado;
+}
 int main (){
-    printf("Algum codigo ai que eu fiz...\n");
+    float num1, num2;
+    float result;
+    printf("digite um numero:\n");
+    scanf("%f", &num1);
 
+    result= quad(num1);
+    printf("Raiz quadrada do numero:%.1f\n", result);
     return 0;
 }

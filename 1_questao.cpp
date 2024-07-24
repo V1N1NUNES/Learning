@@ -10,7 +10,7 @@ int main (){
 
     sleep(3.5);
     
-    printf("acho que to me alembrando\nmeu cumpassa.(risada de ladrão)\n\n");
+    printf("haaammm.....acho que to me alembrando\nmeu cumpassa.(risada de ladrão)\n\n");
 
     sleep(3);
 

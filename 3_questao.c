@@ -1,1 +1,7 @@
-//adicionando mais um arquivo de codigo aqui
+#include <stdio.h>
+
+int main(){
+    printf("...");
+
+    return 0;
+}
