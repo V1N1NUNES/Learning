@@ -33,3 +33,6 @@
  -git stash list (ver todos os stash's feitos ...)
  -git stash apply "mumero da stash" (recupera o codigo que estava nessa stash)
  -git stash show -p "nome da branch" (mostra as diferenças do codigo atual para o codigo da stash selecionada)
+ -git stash drop "nome da stash" (remove a stash)
+ -git stash clear (remove todas as stash's que existem)
+ -git 
