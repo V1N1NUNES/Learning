@@ -19,6 +19,7 @@
  - git chekout "nome do arquivo" (volta para o estado original do ultimo push)
  - git reset --hard "branch remoto" (volta para o estado inicial do ultimo push apagando todas as mudanças)
  - git reset "nome do branch remoto" (volta para o estado incial do ultimo push mas não apaga os arquivos modificados)
+ -git show <hash do commit> ; <nome da tag> ; <numero da stash> ; etc  (mostra os detalhes do que quiser saber)
 
 
 * usando branch's
@@ -28,6 +29,8 @@
  -git checkout "nome da branch que deseja mudar" (muda de para a branch selecionada)
  -git checkout -b "nome da nova branch" (cria uma outra branch e alterna para ela)
  -git merge "nome do branch que deseja mesclar" (junta os branch) //AVISO// (ter cuidado na mesclagem das branch com a main pois a main é o "codigo certo") 
+ -git push origin <nome da branch> (manda a branch selecionada para o github)
+
 
 
 * usando o "git stash" (serve para jogar o codigo feito no "lixo" e se quiser depois pode recuperar)
@@ -41,10 +44,13 @@
 
 
 * utilizando tags (cria checkpoint's do codigo.)
- -git tag <nome da tag> (>cria um tag simples)
+ -git tag <nome da tag> (cria um tag simples)
  -git tag -a <nome da tag> -m <mensagem da tag> (cria uma tag com mensagem)
  -git tag (mostra todas as tags que exsitem na branch)
  -git tag -d <nome da tag> (deleta a tag desejada)
  -git checkout <nome da tag> (restaura a tag desejada)
- -git 
+ -git show <nome da tag> (mostra os detalhes dessa tag)
+ -git push origin <nome da tag> (envia a tag para o github)
+ -git push origin --tags (envia todas as tags para o github)
+
 
