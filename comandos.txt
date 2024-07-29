@@ -12,8 +12,9 @@
 
 
 * outros comandos importantes
- - git rm "nome do arquivo"
- - git log e ...
+ - git rm "nome do arquivo" (remove arquivos)
+ - git log (mostra o historico de commit's)
+ -git log -p (mostra o historico de commit's e as suas alterações)
  - git mv "nome do arquivo" (serve para mover e renomear arquivos)
  - git chekout "nome do arquivo" (volta para o estado original do ultimo push)
  - git reset --hard "branch remoto" (volta para o estado inicial do ultimo push apagando todas as mudanças)
@@ -21,7 +22,7 @@
 
 
 * usando branch's
- -git branch "nome da branch"
+ -git branch "nome da branch" (criação de u branch)
  -git branch (mostra todas as branch criadas)
  -git branch -d "nome do branch que quer deletar" (deleta a branch em que vc está)
  -git checkout "nome da branch que deseja mudar" (muda de para a branch selecionada)
@@ -29,7 +30,8 @@
  -git merge "nome do branch que deseja mesclar" (junta os branch) //AVISO// (ter cuidado na mesclagem das branch com a main pois a main é o "codigo certo") 
 
 
-* usando o "git stash" (tem como cancelar a aplicação da stash no codigo ?)
+* usando o "git stash" (serve para jogar o codigo feito no "lixo" e se quiser depois pode recuperar)
+(para cancelar o comando do git stash antes da confirmação basta apertar crtl+c)
  -git stash (guarda o codigo atual em uma "caixa" ,... e volta o uiltimo commit/pull/criação dessa branch apartir da branch principal)
  -git stash list (ver todos os stash's feitos ...)
  -git stash apply "mumero da stash" (recupera o codigo que estava nessa stash)
@@ -38,6 +40,8 @@
  -git stash clear (remove todas as stash's que existem)
 
 
-* utilizando tags
- -git
+* utilizando tags (cria checkpoint's do codigo.)
+ -git tag -a <nome da tag> -m <mensagem da tag> (cria uma tag)
+ -git tag (mostra todas as tags que exsitem na branch)
+ -git 
 
