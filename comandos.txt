@@ -41,7 +41,10 @@
 
 
 * utilizando tags (cria checkpoint's do codigo.)
- -git tag -a <nome da tag> -m <mensagem da tag> (cria uma tag)
+ -git tag <nome da tag> (>cria um tag simples)
+ -git tag -a <nome da tag> -m <mensagem da tag> (cria uma tag com mensagem)
  -git tag (mostra todas as tags que exsitem na branch)
+ -git tag -d <nome da tag> (deleta a tag desejada)
+ -git checkout <nome da tag> (restaura a tag desejada)
  -git 
 
