@@ -53,4 +53,7 @@
  -git push origin <nome da tag> (envia a tag para o github)
  -git push origin --tags (envia todas as tags para o github)
 
-
+* compartilhamento e atualização de repositorios (comandos que podem ajudar no versionamento de codigo no dia a dia)
+ -git fetch (busca e baixa atualizações de branch's do github sem fazer merge no repo local)
+ -git pull (sempre verificar se esta na versão mais atualizada da branch que estiver trabalhando)
+ -git 
