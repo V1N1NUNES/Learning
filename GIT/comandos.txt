@@ -56,4 +56,6 @@
 * compartilhamento e atualização de repositorios (comandos que podem ajudar no versionamento de codigo no dia a dia)
  -git fetch (busca e baixa atualizações de branch's do github sem fazer merge no repo local)
  -git pull (sempre verificar se esta na versão mais atualizada da branch que estiver trabalhando)
- -git 
+ -git remote (é o controle daonde você pull and push para o repo remoto (lembrar do exemplo da mudança de site de hospedagem))
+ -git submodule add (cria um submodolo dentro do repositorio local. Serve para utilizar funcionalidades  do submodulo no codigo que vc estiver fazendo)
+ -git
