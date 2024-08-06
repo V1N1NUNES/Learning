@@ -58,4 +58,4 @@
  -git pull (sempre verificar se esta na versão mais atualizada da branch que estiver trabalhando)
  -git remote (é o controle daonde você pull and push para o repo remoto (lembrar do exemplo da mudança de site de hospedagem))
  -git submodule add (cria um submodolo dentro do repositorio local. Serve para utilizar funcionalidades  do submodulo no codigo que vc estiver fazendo)
- -git
+ -git push --recurse-submodules=on=demand (nao entendi ainda oque esse comando faz...)
