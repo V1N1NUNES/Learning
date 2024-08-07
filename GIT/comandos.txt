@@ -68,4 +68,10 @@
 
  *analise e inspeção de repositorios
  -git show ; git show <nome da tag> ; git show <n. da stash> ; etc (mostra os detalhes doque foi selecionado para mostrar)
- -git diff 
+ -git diff (compara as mudanças feitas com pqie ja foi adicionado com git add)
+ -git diff --cached (mostra as alterações feitas depois do git add e antes do commit com o ultimo commit feito)
+ -git diff head (compara todas as mudanças no diretorio de trabalho com o ultimo commit)
+ -git diff <nome da branch> (compara a branch atual com a branch especificada)
+ -git shortlog (da um log resumido do projeto)
+
+
