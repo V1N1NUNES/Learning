@@ -53,9 +53,19 @@
  -git push origin <nome da tag> (envia a tag para o github)
  -git push origin --tags (envia todas as tags para o github)
 
+
 * compartilhamento e atualização de repositorios (comandos que podem ajudar no versionamento de codigo no dia a dia)
  -git fetch (busca e baixa atualizações de branch's do github sem fazer merge no repo local)
  -git pull (sempre verificar se esta na versão mais atualizada da branch que estiver trabalhando)
  -git remote (é o controle daonde você pull and push para o repo remoto (lembrar do exemplo da mudança de site de hospedagem))
- -git submodule add (cria um submodolo dentro do repositorio local. Serve para utilizar funcionalidades  do submodulo no codigo que vc estiver fazendo)
- -git push --recurse-submodules=on=demand (nao entendi ainda oque esse comando faz...)
+ 
+* submodolos (incorporação de outros repositorios remotos no seu projeto)
+ -git submodule add (cria um subomodulo com um repositorio remoto diferente, para ser usado no codigo atual)
+ -git submodule init (inicializa a configuração de submodulos no repo local)
+ -git submodule update (atualiza o submodulo se tiver tive alguma alteração) 
+ -git clone --recurseve <url do repo remoto> (clona um repositorio e todos os seus submodulos)
+
+
+ *analise e inspeção de repositorios
+ -git show ; git show <nome da tag> ; git show <n. da stash> ; etc (mostra os detalhes doque foi selecionado para mostrar)
+ -git diff 
