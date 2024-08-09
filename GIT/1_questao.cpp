@@ -1,24 +1,48 @@
+// Escreva um programa em C que receba um array de inteiros e seu tamanho, e depois inverta a ordem dos elementos do array usando ponteiros. O programa deve imprimir o array original e o array invertido.
+
 #include <stdio.h>
 #include <unistd.h>
+#define tam 6
+//declarações
+void inversao(int *, int);
 
-int main (){
-    printf (" sera que eu esqueci como que codar em C???\n");
+//funções
+void inversao(int *x, int tamanho){
+    int *inicio = x ,*fim= x + tamanho -1, temp;
 
-    sleep(3);
+    while(inicio<fim){
+        temp=*inicio;
+        *inicio= *fim;
+        *fim=temp;
+        *inicio++;
+        *fim--;
+    }
+}
 
-    printf("Ou sera que......\n");
+int main(){
+    int vet[tam];
 
-    sleep(3.5);
-    
-    printf("haaammm.....acho que to me alembrando\nmeu cumpassa.(risada de ladrão)\n\n");
+//preenchendo o vetor (ok)
+    for(int i=0;i<tam;i++){
+        printf("Digite um numero para o espaço %d do vetor:\n",i+1);
+        scanf("%d", &vet[i]);
+    }
 
-    sleep(3);
+//mostrando o vetor original (ok)
+    printf("\nVetor original:\n");
+    for(int i=0;i<tam;i++){
+        printf("%d espaço do vetor:%d\n",i+1,vet[i]);
+        sleep(1);
+    }
 
-    printf("acho muito massa como funciona e como criaram e descobriram tanta coisa assim.\n");
+//inversão do vetor
+    inversao(vet,tam);
 
-    sleep(4);
-
-    printf("é...ainda tenho muito que aprender :)");
-
+//mostrando o vetor invertido
+    printf("\nVetor invertido:\n");
+    for(int i=0;i<tam;i++){
+        printf("%d espaço do vetor invertido:%d\n", i+1,vet[i]);
+        sleep(1);
+    }
     return 0;
 }
