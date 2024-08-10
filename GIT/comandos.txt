@@ -87,12 +87,3 @@
  - Boas mensagens de commit: explicação do porque e como do commit, separar assuntos do corpo da mensagem, grafia correta, objetividade da mensagem do commit. Pensar em fazer commit's como se fossem feitas para pessoas leigas lerem e conseguirem entender meu codigo. Dar espaços nos commit's que terei que explicar.  
 
 
-
-
-                        //aprendendo recursos do Github//
-* Criando repositorios
- - nome do repo: Bem objetivos e explicativos oque faz o seu repositorio ou projeto.
- - Descrições objetivas mas com mais detalhamento como, linguagens utilizadas, finalidade do projeto, etc
- - Sempre adicionar o .gitignore para mesmo que não utilizando em projetos de teste, aprendizado, etc. Acaba se tornando uma boa prática
- - Aba code<> : consigo administrar o codigo pelo github, consigo modificar os arquivos pela aba code<>, ver licenças, mexer no readme.md, ter controle sobre as branch's e tag's do codigo
- - 
