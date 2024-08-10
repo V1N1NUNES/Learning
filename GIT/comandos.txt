@@ -1,5 +1,5 @@
-<<<<<<< Updated upstream
-            //comandos mais importantes no git//
+
+                           //comandos no Git//
 * inciando um repo
  - git init
  - git add ./nome do arquivo
@@ -14,64 +14,85 @@
 * outros comandos importantes
  - git rm "nome do arquivo" (remove arquivos)
  - git log (mostra o historico de commit's)
- -git log -p (mostra o historico de commit's e as suas alterações)
+ - git log -p (mostra o historico de commit's e as suas alterações)
  - git mv "nome do arquivo" (serve para mover e renomear arquivos)
  - git chekout "nome do arquivo" (volta para o estado original do ultimo push)
  - git reset --hard "branch remoto" (volta para o estado inicial do ultimo push apagando todas as mudanças)
  - git reset "nome do branch remoto" (volta para o estado incial do ultimo push mas não apaga os arquivos modificados)
- -git show <hash do commit> ; <nome da tag> ; <numero da stash> ; etc  (mostra os detalhes do que quiser saber)
+ - git show <hash do commit> ; <nome da tag> ; <numero da stash> ; etc  (mostra os detalhes do que quiser saber)
 
 
 * usando branch's
- -git branch "nome da branch" (criação de u branch)
- -git branch (mostra todas as branch criadas)
- -git branch -d "nome do branch que quer deletar" (deleta a branch em que vc está)
- -git checkout "nome da branch que deseja mudar" (muda de para a branch selecionada)
- -git checkout -b "nome da nova branch" (cria uma outra branch e alterna para ela)
- -git merge "nome do branch que deseja mesclar" (junta os branch) //AVISO// (ter cuidado na mesclagem das branch com a main pois a main é o "codigo certo") 
- -git push origin <nome da branch> (manda a branch selecionada para o github)
-
+ - git branch "nome da branch" (criação de u branch)
+ - git branch (mostra todas as branch criadas)
+ - git branch -d "nome do branch que quer deletar" (deleta a branch em que vc está)
+ - git checkout "nome da branch que deseja mudar" (muda de para a branch selecionada)
+ - git checkout -b "nome da nova branch" (cria uma outra branch e alterna para ela)
+ - git merge "nome do branch que deseja mesclar" (junta os branch) //AVISO// (ter cuidado na mesclagem das branch com a main pois a main é o "codigo certo") 
+ - git push origin <nome da branch> (manda a branch selecionada para o github)
 
 
 * usando o "git stash" (serve para jogar o codigo feito no "lixo" e se quiser depois pode recuperar)
 (para cancelar o comando do git stash antes da confirmação basta apertar crtl+c)
- -git stash (guarda o codigo atual em uma "caixa" ,... e volta o uiltimo commit/pull/criação dessa branch apartir da branch principal)
- -git stash list (ver todos os stash's feitos ...)
- -git stash apply "mumero da stash" (recupera o codigo que estava nessa stash)
- -git stash show -p "nome da branch" (mostra as diferenças do codigo atual para o codigo da stash selecionada)
- -git stash drop "nome da stash" (remove a stash)
- -git stash clear (remove todas as stash's que existem)
+ - git stash (guarda o codigo atual em uma "caixa" ,... e volta o uiltimo commit/pull/criação dessa branch apartir da branch principal)
+ - git stash list (ver todos os stash's feitos ...)
+ - git stash apply "mumero da stash" (recupera o codigo que estava nessa stash)
+ - git stash show -p "nome da branch" (mostra as diferenças do codigo atual para o codigo da stash selecionada)
+ - git stash drop "nome da stash" (remove a stash)
+ - git stash clear (remove todas as stash's que existem)
 
 
-* utilizando tags (cria checkpoint's do codigo.)
- -git tag <nome da tag> (cria um tag simples)
- -git tag -a <nome da tag> -m <mensagem da tag> (cria uma tag com mensagem)
- -git tag (mostra todas as tags que exsitem na branch)
- -git tag -d <nome da tag> (deleta a tag desejada)
- -git checkout <nome da tag> (restaura a tag desejada)
- -git show <nome da tag> (mostra os detalhes dessa tag)
- -git push origin <nome da tag> (envia a tag para o github)
- -git push origin --tags (envia todas as tags para o github)
+* utilizando tags (cria checkpoint's/versões do codigo pronto.)
+ - git tag <nome da tag> (cria um tag simples)
+ - git tag -a <nome da tag> -m <mensagem da tag> (cria uma tag com mensagem)
+ - git tag (mostra todas as tags que exsitem na branch)
+ - git tag -d <nome da tag> (deleta a tag desejada)
+ - git checkout <nome da tag> (restaura a tag desejada)
+ - git show <nome da tag> (mostra os detalhes dessa tag)
+ - git push origin <nome da tag> (envia a tag para o github)
+ - git push origin --tags (envia todas as tags para o github)
 
 
 * compartilhamento e atualização de repositorios (comandos que podem ajudar no versionamento de codigo no dia a dia)
- -git fetch (busca e baixa atualizações de branch's do github sem fazer merge no repo local)
- -git pull (sempre verificar se esta na versão mais atualizada da branch que estiver trabalhando)
- -git remote (é o controle daonde você pull and push para o repo remoto (lembrar do exemplo da mudança de site de hospedagem))
+ - git fetch (busca e baixa atualizações de branch's do github sem fazer merge no repo local)
+ - git pull (sempre verificar se esta na versão mais atualizada da branch que estiver trabalhando)
+ - git remote (é o controle daonde você pull and push para o repo remoto (lembrar do exemplo da mudança de site de hospedagem))
  
 * submodolos (incorporação de outros repositorios remotos no seu projeto)
- -git submodule add (cria um subomodulo com um repositorio remoto diferente, para ser usado no codigo atual)
- -git submodule init (inicializa a configuração de submodulos no repo local)
- -git submodule update (atualiza o submodulo se tiver tive alguma alteração) 
- -git clone --recurseve <url do repo remoto> (clona um repositorio e todos os seus submodulos)
+ - git submodule add (cria um subomodulo com um repositorio remoto diferente, para ser usado no codigo atual)
+ - git submodule init (inicializa a configuração de submodulos no repo local)
+ - git submodule update (atualiza o submodulo se tiver tive alguma alteração) 
+ - git clone --recurseve <url do repo remoto> (clona um repositorio e todos os seus submodulos)
 
 
- *analise e inspeção de repositorios
- -git show ; git show <nome da tag> ; git show <n. da stash> ; etc (mostra os detalhes doque foi selecionado para mostrar)
- -git diff (compara as mudanças feitas com pqie ja foi adicionado com git add)
- -git diff --cached (mostra as alterações feitas depois do git add e antes do commit com o ultimo commit feito)
- -git diff head (compara todas as mudanças no diretorio de trabalho com o ultimo commit)
- -git diff <nome da branch> (compara a branch atual com a branch especificada)
- -git shortlog (da um log resumido do projeto)
+ * analise e inspeção de repositorios
+ - git show ; git show <nome da tag> ; git show <n. da stash> ; etc (mostra os detalhes doque foi selecionado para mostrar)
+ - git diff (compara as mudanças feitas com pqie ja foi adicionado com git add)
+ - git diff --cached (mostra as alterações feitas depois do git add e antes do commit com o ultimo commit feito)
+ - git diff head (compara todas as mudanças no diretorio de trabalho com o ultimo commit)
+ - git diff <nome da branch> (compara a branch atual com a branch especificada)
+ - git shortlog (da um log resumido do projeto)
 
 
+* administarção e manutenção de repositorio
+ - git clean (limpa todos os arquivos untraked(que ainda não foram "add"))
+ - git gc(garbage collector) (exclui e comprime arquivos que não estão sendo mais usados, e otimiza o repo)
+ - git fsck (file system check) (verifica os arquivos corrompitados e avisa. faz uma varredura dos arquivos)
+ - git reflog (vai mapear todos os passos no repositorio. commit's,mudanças de branch's,etc. (consegue se movimentar com git reset e concertar se tiver errado alguma coisa))
+ - git archive --format zip --output master/main_files.zip master/main(serve para compactar o repositorio. Pode ser usado para quando precisar passar o repositorio para um pendrive, etc)
+
+
+* Melhorando os commit's do projeto
+ - git rebase com tecnica de private banch's. (criar branch's para fazer a funcionalidade e dar os "commit's ruins" nessa private branch. quando pronto mandar o codigo finalizado e os commit com a mensagem certa dos commit's "bons" e mandar para a branch que sera analisada para o merge)
+ - Boas mensagens de commit: explicação do porque e como do commit, separar assuntos do corpo da mensagem, grafia correta, objetividade da mensagem do commit. Pensar em fazer commit's como se fossem feitas para pessoas leigas lerem e conseguirem entender meu codigo. Dar espaços nos commit's que terei que explicar.  
+
+
+
+
+                        //aprendendo recursos do Github//
+* Criando repositorios
+ - nome do repo: Bem objetivos e explicativos oque faz o seu repositorio ou projeto.
+ - Descrições objetivas mas com mais detalhamento como, linguagens utilizadas, finalidade do projeto, etc
+ - Sempre adicionar o .gitignore para mesmo que não utilizando em projetos de teste, aprendizado, etc. Acaba se tornando uma boa prática
+ - Aba code<> : consigo administrar o codigo pelo github, consigo modificar os arquivos pela aba code<>, ver licenças, mexer no readme.md, ter controle sobre as branch's e tag's do codigo
+ - 
