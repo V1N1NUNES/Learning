@@ -42,7 +42,7 @@
  - git stash clear (remove todas as stash's que existem)
 
 
-* utilizando tags (cria checkpoint's do codigo.)
+* utilizando tags (cria checkpoint's/versões do codigo pronto.)
  - git tag <nome da tag> (cria um tag simples)
  - git tag -a <nome da tag> -m <mensagem da tag> (cria uma tag com mensagem)
  - git tag (mostra todas as tags que exsitem na branch)
