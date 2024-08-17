@@ -90,9 +90,13 @@
 
 
                         //aprendendo recursos do Github//
-* Criando repositorios
- - nome do repo: Bem objetivos e explicativos oque faz o seu repositorio ou projeto.
- - Descrições objetivas mas com mais detalhamento como, linguagens utilizadas, finalidade do projeto, etc
- - Sempre adicionar o .gitignore para mesmo que não utilizando em projetos de teste, aprendizado, etc. Acaba se tornando uma boa prática
- - Aba code<> : consigo administrar o codigo pelo github, consigo modificar os arquivos pela aba code<>, ver licenças, mexer no readme.md, ter controle sobre as branch's e tag's do codigo
- - 
+* Aba <code>
+ - controle dos arquivos, branch's, tags, do código em si e descrição do projeto
+ - possibilita a criação de fork's, realeses e packages
+
+* Aba issues
+ - usada para manter a organização do projeto. Criando tarefas e corrigindo problemas.
+ - Cria anotações com comentários (milestone's) e descrições para a resoluação de algum problema ou quando algum integrante necessita de ajuda(labels)
+
+* Aba pull request
+ - Organiza as merge's na main. O código passa por um pull request para ser análisado para ai sim ser fundido na main.
