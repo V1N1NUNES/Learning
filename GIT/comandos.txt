@@ -1,5 +1,6 @@
 
-                           //comandos no Git//
+                                                       //comandos no Git//
+
 * inciando um repo
  - git init
  - git add ./nome do arquivo
@@ -89,7 +90,8 @@
 
 
 
-                        //aprendendo recursos do Github//
+                                                //aprendendo recursos do Github//
+
 * Aba <code>
  - controle dos arquivos, branch's, tags, do código em si e descrição do projeto
  - possibilita a criação de fork's, realeses e packages
@@ -100,3 +102,26 @@
 
 * Aba pull request
  - Organiza as merge's na main. O código passa por um pull request para ser análisado para ai sim ser fundido na main.
+
+* Aba action (pesquisar sobre depois)
+ - Serve para a automação do gerenciamento  de um software, Utilizando a prática CI/CD, criação de testes automatizadose outros workflows
+
+* Criando projetos (projects) no github 
+ - Serve para a organização do projeto em si. Contando com um espaço com colunas que possibilitam acompanhar cada etapa do projeto e tambem cada funcionalidade. 
+ - Acesso direto como issues e pull request's, para poderem serem acompanhar o andamento das funcionalidades do projeto
+ - Acosse tambem ao Gihtub action's, podendo automatizar os processos das funcionalidades.
+
+* aba insights
+ - Essa aba ofereca um visão detalhada do repositorio
+ - Mostra os contrinuites para esse repositorio, commits feitos, pull request, issues, e o código em si
+
+* aba settings
+ - todas as configurações possiveis que se pode fazer no projeto e no repositorio
+ - controle sobre contrinuintes, sobre o repositorio, código, etc
+
+
+
+
+                                                     //aprendendo Markdown//
+
+* 

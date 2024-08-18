@@ -1,40 +1,40 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
-#include <string.h>
 
-
-//declarações
-#define tam 200
-int cadastro_pessoa();
-void limpar_buffer();
-typedef struct {
-    char nome[tam];
-    int idade;
-    char sexo[20];
-} pessoa;
-int pessoa [tam];
-int quant=0;
-
-
-//funções
-void limpar_buffer(){
-    int clear;
-    while((clear = getchar() != '\n' && clear != EOF));
+float soma(float *x, float *y)
+{
+    float soma= *x + *y;
+    return soma;
 }
-int cadastro_pessoa(){
-    char resposta[10];
-    int i=0;
-    while(resposta == 'sim' || resposta == 'Sim'){
-        printf("Digite seu nome:\n");
-        limpar_buffer();
-        fgets(pessoa[i].nome,sizeof(pessoa[i].nome),stdin);
-        printf("Digite sua idade:\n");
-        scanf("%d", &pessoa[i].idade);
-        printf("Digite seu sexo:\n");
-    }
-    
-int main(){
+int main()
+{
+    float a, b;
+    float somado;
 
-return 0;
+    printf("Digite um numero para A:\n");
+    scanf("%f", &a);
+    printf("Digite um numero para B:\n");
+    scanf("%f", &b);
+
+    somado= soma(&a, &b);
+
+//abertura do arquivo
+    FILE *arquivo= fopen("soma.txt", "w");
+
+//mensagem de erro caso o arquivo não abra por algum motivo
+    if(arquivo == NULL)
+    {
+        printf("Não foi possivel abrir o arquivo");
+        exit(1);
+    }
+
+//escrevendo no arquivo
+    fprintf(arquivo, "soma de %.2f + %.2f= %.2f\n",a, b, somado);
+
+//fechamento do arquivo
+    fclose(arquivo);
+    
+    printf("Valores que foram passados para a escrita no arquivo 'soma.txt':\n%.2f \t%.2f\t%.2f\n", a, b, somado);
+
+    return 0;
 }
