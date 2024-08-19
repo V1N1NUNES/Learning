@@ -124,4 +124,28 @@
 
                                                      //aprendendo Markdown//
 
-* 
+- cabeçalhos em Markdown: # usando a mesma lógica de html (<h1></h1> = ##) ; (<h2></h2> = ###)
+- ênfase no texto: **text** ou __texto__ = negrito / *texto* ou _texto_ = itálico
+- listas em Markdown: listas n ordenadas = * texto / listas ordenadas 1. texto
+- inserindo imagens: imagem local= ![nome da imagem](comainho relativo da imagem no computador) / imagem externa: ![nome da imagem](link da url aonde esta a imagem)
+- inserindo links: [nome do link](link) / imagem dentro de link: [![nome da imagem](link da imgaem)](link aonde a imagem dará acesso)
+- código: ´´´código´´´ (especial para o github) ex :
+´´´´ C 
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello word!\n);
+    return 0;
+}
+´´´
+- task list: tarefas prontas: - [x] <tarefa pronta> / - [ ] <tarefa ainda incompleta (especial apenas para o github)
+
+
+
+
+                                                           // Projetos (GitHub pages)//
+* GitHub Pages: alternativa gratuita para hospedar nosso repositório
+- criar o repositorio com "nome_do_seu_github.github.io" ; clonar o repositorio e adcionar código ;
+- "criação dos arquivos html, css na sessão 10 no curso de versionamento de código"
