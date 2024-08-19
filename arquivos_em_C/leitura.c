@@ -1,20 +1,25 @@
 #include <stdio.h>
-#define tam 200
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
 
-int main(){
-    FILE *arquivo;
-    char leitura[tam];
+int main()
+{
+    printf("Imprimindo arquivos que foram escritos em 'soma.txt':\n");
 
-    arquivo=fopen("armazenamento.txt", "r");
-    if(arquivo == NULL){
-        printf("erro na abertura do arquivo\n");
-        return 1;
-    }
-    while (fgets(leitura, tam, arquivo) != NULL){
-        printf("%s", leitura);
-    }
+//abertura do arquivo
+    FILE *arq= fopen("soma.txt", "r");
 
-    fclose(arquivo);
+    float num1, num2, somatorio;
+
+//lendo os dados no arquivo
+    fscanf(arq, "soma de %.2f + %.2f= %.2f\n",&num1, &num2, &somatorio);
+
+//fechando o arquivo
+    fclose(arq);
+
+//mostrando os dados do arquivo
+    printf("Soma:%.2f + %.2f = %.2f\n",num1, num2, somatorio);
 
     return 0;
 }
