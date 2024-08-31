@@ -16,6 +16,7 @@ ul{
 
 
 
+
 /*odem das regras*/
 
 h2{
@@ -28,6 +29,13 @@ h2{
 #identificador{
     border-bottom: 1px solid pink;
 }
+
+
+
+
+
+
+
 /*nomes das cores e diferentes utilizações*/
 .hexadecimal{
     background-color: aliceblue;
@@ -69,6 +77,10 @@ h2{
     color: hsl(232, 100%, 40%);
     background-color: transparent;
 }
+
+
+
+
 
 /*modificando a cor de funco */
 .background{
