@@ -95,3 +95,140 @@ h3{
     color: #fff;
     border: 5px solid black;
 }
+
+.border-left{
+    border-left: 3px solid red;
+    background-color: black;
+    padding: 25px;
+}
+.border-right{
+    border-right: 3px double aqua;
+    border-bottom: 3px double purple;
+    background-color: black;
+    padding: 25px;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.arredondada{
+    border-radius: 20px;
+    background-color: aquamarine;
+    color: black;
+    padding: 15px;
+}
+.arredondamento{
+    background-color: green;
+    color: yellow;
+
+}
+.margem{
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+.margem-top{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background-color: antiquewhite;
+}
+.margem-shorthand{
+    margin: 10px 20px
+}
+.boxmodel{
+    background-color: transparent;
+    border: 2px solid black;
+    color: #0000ff;
+    height: auto;
+    width: 500px;
+    padding: 5px 10px 5px 5px;
+    margin: 10px;
+}
+
+#desafio{
+    background-color: #444;
+    margin: 10px;
+    padding: 20px;
+    height: 200px;
+    width: 150px;
+}
+.textdesafio{
+    color: white;
+    border: 4px solid #0000ff;
+    padding: 30px;
+    font-size: auto;
+    height: 120px;
+}
+
+.textline{
+    text-align: right;
+}
+
+.alinhamento{
+    text-align: center;
+    width: 300px;
+    border: 5px solid red
+}
+
+.underline{
+    text-decoration: underline;
+}
+.risco{
+    text-decoration: line-through;
+}
+.removerunderline{
+    text-decoration: none;
+    color: red;
+}
+
+.transformacao{
+    text-transform: lowercase;
+}
+.transformacao-2{
+    text-transform: uppercase;
+}
+
+.espacamento{
+    letter-spacing: 8px;
+}
+
+.fontes
+{
+    font-family: Georgia;
+}
+.fontes-2
+{
+    font-family: helvetica;
+}
+.fontes-3
+{
+    font-family: courier;
+}
+.fontes-4
+{
+    font-family: cursive;
+}
+
+.estilizando{
+    font-style: italic;
+}
+.estilizando-2{
+font-style: oblique;
+}
+
+.peso, .peso2{
+    font-family: helvetica;
+}
+.peso{
+    font-weight: 150;
+}
+
+.peso-2{
+    font-weight: 900;
+}
+
+.tamanho{
+    font-size: 6px;
+}
+.tamanho-2{
+    font-size: 78px;
+}
