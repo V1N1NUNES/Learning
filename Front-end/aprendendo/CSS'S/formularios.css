@@ -1,0 +1,22 @@
+body{
+    padding-bottom: 500px;
+}
+
+div{
+    margin-bottom: 30px;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+
+div input, div label{
+    display: flex;
+    
+}
+#enviar{
+    margin-top: 25px;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.radio input, .radio span, .radio label{
+    display: inline-block;
+}
