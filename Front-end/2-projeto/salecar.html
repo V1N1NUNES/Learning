@@ -7,87 +7,73 @@
     <title>Sale Car</title>
 </head>
 <body>
-    <div class="cabecalho">
-        <h4>Cadastre seu veículo para vender mais rápido!!</h4>
-    </div>
+    <!-- cabeçalho da página -->
+    <header>
+        <div class="header-container">
+            <h2 class="intro">Cadastre seu veículo para vender mais rápido!!</h2>
+        </div>
+    </header>
 
-    <!--formulario de preenchimento-->
-    <div class="formulario">
-        <h2>Formulário</h2>
-        <form action="preencher">
-            <div class="inicio">
-                <h1>Venda fácil seu carro!</h1>
-                <p>Descreva as caracteristicas e marque os opcionais que ele possui.</p>
-            </div>
-
-            <div class="titulo">
-                <label for="title">Título do anucio *</label>
-            <input type="text" name="title" placeholder="Um título para seu carro" required>
-            </div>
-
-            <hr>
-
-            <div class="preco">
-                <label for="price">Preço *</label>
-                <input type="number" name="price" placeholder="Defina o preço do veículo" required>
-            </div>
-
-            <hr>
-
-            <div class="descricao">
-                <label for="descript"> Descrição *</label>
-                <textarea name="descript" placeholder="Escreva os detalhes do seu carro no anuncio. Se ja sofreu alguns arranhões,pintura, documentação, etc "></textarea>
-            </div>
-
-            <div class="marca">
-                <label for="marc">Marca *</label>
-                <input type="text" name="marc" placeholder="Digite a marca do carro">
-            </div>
-
-            <div class="modelo">
-                <label for="model">Modelo *</label>
-                <input type="text" name="model" placeholder="Digite o modelo do seu carro">
-            </div>
-
-            <div class="km">
-                <label for="kilo">Kilometragem *</label>
-                <input type="number" name="kilo" placeholder="Digite a kilometragem do seu veículo">
-            </div>
-
-            <div class="ano">
-                <label for="year">Ano do carro *</label>
-                <input type="date" name="year">
-            </div>
-
-            <div class="cambio">
-                <label for="gear">Tipo do câmbio *</label>
-                <div>
-                    <input type="checkbox">
-                    <label for="manual">Manual</label>
-                </div>
-                <div></div>
-                    <input type="checkbox">
-                    <label for="automatico">Automático</label>
-                </div>
-                
-            </div>
-
-            <div class="img">
-                <label for="image">Fotos do carro *</label>
-                <input type="file">
-            </div>
-
-            <div class="enivio">
-                <input type="submit" id="cadastro"value="Cadastrar">
-            </div>
-
-
-
-
-
-        </form>
-    </div>
-    
-    
+    <!-- preenchimento -->
+     <main>
+        <div class="main-container">
+            <form>
+                <div class="formulario">
+                    <div class="formulario-text-intro">
+                        <h3 class="text-intro">Formulário</h3>
+                    </div>
+                    <div class="inicio">
+                        <h1 class="inicio-text-">Venda fácil seu carro!!</h1>
+                        <h4 id="definicao">Descreva as caracteristicas e marque os opcionais que ele possui.</h4>
+                    </div>
+                    <div class="titulo">
+                        <h4 class="titulo-anuncio">Título do anuncio <span class="required-field">*</span></h4>
+                        <input type="text" placeholder="Um título para anunciar o seu carro">
+                    </div>
+                    <div class="preco">
+                        <h4 class="preco-text">Preço <span class="required-field">*</span></h4>
+                        <input type="text" placeholder="Defina o preço">
+                    </div>
+                    <div class="descricao">
+                        <h4 class="descricao-text">Descrição <span class="required-field">*</span></h4>
+                        <textarea id="descricao-area" placeholder="Aqui você coloca os detalhes do veículo. Por exemplo se ja foi batido ou se tem algum arranhão."></textarea>
+                    </div>
+                    <div class="marca">
+                        <h4 marca-text>Marca <span class="required-field">*</span></h4>
+                        <input type="text" placeholder="Digite a marca do veículo">                 
+                    </div>
+                    <div class="modelo">
+                        <h4>Modelo <span class="required-field">*</span></h4>
+                        <input type="text" placeholder="Digite o modelo do veículo">
+                    </div>
+                    <div class="km">
+                        <h4>kilometragem</h4>
+                        <input type="text" placeholder="Digite a kilometragem do veículo">
+                    </div>
+                    <div class="data">
+                        <h4>Data da compra <span class="required-field">*</span></h4>
+                        <input type="date">
+                    </div>
+                    <div class="cambio"> <!--trocar input para escolher apenas 1 seleção-->
+                        <h4>Tipo do câmbio <span class="required-field">*</span></h4>
+                        <input type="radio">
+                        <label for="">Automático</label>
+                        <input type="radio">
+                        <label for="">Manual</label>
+                    </div>
+                    <div class="opcionais"> <!--adicionar opcionais depois-->
+                        <h4>Opcionais</h4>
+                    </div>
+                    <div class="fotos">
+                        <h4>Fotos <span class="required-field">*</span></h4>
+                        <input type="file">
+                    </div>
+                    <div class="cadastrar">
+                        <input type="submit" value="Cadastrar" id="cadastro">
+                    </div>
+                </div>   
+            </form>
+        </div>
+     </main>
 </body>
 </html>

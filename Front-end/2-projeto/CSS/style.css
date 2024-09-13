@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body h4{
+    color: #333;
+}
+body input[type="text"], input[type="date"], input[type="file"]{
+    border: none;
+    border-color: #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    width: 400px;
+}
+body .required-field{
+    color: rgb(144, 0, 0);
+}
+body{
+    background-color: rgb(250, 234, 255); 
+}
+body div{
+    margin-bottom: 52px;
+}
+
+header .header-container{
+    background-color: rgb(101, 41, 253);
+    height: 300px;
+    width: auto;
+    padding: 37px;
+}
+header .intro{
+    color: white;
+}
+main form .main-container{
+    width: auto;
+    margin-bottom: 20px;
+}
+main form .formulario{
+    width: 700px;
+    height: auto;
+    padding: 13px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    position: relative;
+    top: -120px;
+    border-radius: 7px;
+}
+main form .formulario-text-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(101, 41, 253);
+}
+main form .inicio{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
+main form #descricao-area{
+    width: 400px;
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 35px;
+    max-height: 550px;
+    border: none;
+    border-color: #ccc;
+    border-bottom: 1px solid #ccc;
+}
+main form #cadastro{
+    color: white;
+    background-color: rgb(101, 41, 253);
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+
