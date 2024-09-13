@@ -55,6 +55,7 @@ main form .formulario-text-intro{
     margin-bottom: 50px;
     font-size: 20px;
     text-decoration: none;
+    color: rgb(101, 41, 253);
 }
 main form .inicio{
     display: flex;
