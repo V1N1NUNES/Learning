@@ -9,4 +9,4 @@ Este repositório contem arquivos e pastas com conteúdos diversos mostrando de 
 * Conteúdo de back-end (JS->Back-end, node.js, TypeScript, Data base)
 
 #### Considerações finais
-*Este repositótio estará em constante mudança pois cada dia é um aprendizado novo*
+*Este repositótio estará em constante mudança!*
