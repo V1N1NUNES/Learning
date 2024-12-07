@@ -1,8 +1,4 @@
-//inicializando variáveis
-let Nome;
-const idade = 18;
+// Learning
 
-console.log("Digite seu nome: ");
-Nome = 'Vinícius'
-
-console.log(Nome);
+var
+let
