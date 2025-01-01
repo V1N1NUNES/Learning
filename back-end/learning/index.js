@@ -24,20 +24,30 @@ function elevado(n1, n2){
     return n1 ** n2;
 }
 function resto(n1, n2){
-    return n1 % n2;
+  return n1 % n2;
 }
+console.log(`-- 1° Exercício --`);
+console.log(`Soma: ${Soma}\nSubtração: ${Sub}\nDivisão: ${Divisao}\nMultiplicação: ${mult}\nElevado: ${Elevado}\nResto de divisão: ${Resto}\n\n`)
 
-console.log(`Soma: ${Soma}\nSubtração: ${Sub}\nDivisão: ${Divisao}\nMultiplicação: ${mult}\nElevado: ${Elevado}\nResto de divisão: ${Resto}`)
 
-//2°  exercício
 
-let num;
-num = prompt("Digite um número para verificação:");
-num = Number(num)
-const validacao = num % 2;
+//2°  exercício (imcompleto)
+console.log(`-- 2° Exercício --`);
+let opcao;
+do {
+    let num = Number(prompt("Digite um número para verificação:"));
+    const validacao = num % 2;
 
-if(validacao == 0){
-    console.log(`O número digitado ${num} é par.\nResto da divisão: ${validacao}`)
-}else{
-    console.log(`O número digitado ${num} não é par.\nResto da divisão: ${validacao}`)
-}
+    if (validacao === 0) {
+        console.log(`O número digitado ${num} é par.\nResto da divisão: ${validacao}`);
+    } else {
+        console.log(`O número digitado ${num} não é par.\nResto da divisão: ${validacao}`);
+    }
+
+    opcao = prompt("Deseja sair do loop? Digite 'sim' para sair.").trim().toLowerCase(); 
+} while (opcao !== "sim");
+
+
+
+//3°  exercício 
+console.log(`-- 3° Exercício --`);
