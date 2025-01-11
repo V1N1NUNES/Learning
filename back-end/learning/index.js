@@ -29,25 +29,44 @@ function resto(n1, n2){
 console.log(`-- 1° Exercício --`);
 console.log(`Soma: ${Soma}\nSubtração: ${Sub}\nDivisão: ${Divisao}\nMultiplicação: ${mult}\nElevado: ${Elevado}\nResto de divisão: ${Resto}\n\n`)
 
+//2°  exercício (no navegador)
+// console.log(`-- 2° Exercício --`);
+// let opcao;
+// do {
+//     let num = Number(prompt("Digite um número para verificação:"));
+//     const validacao = num % 2;
 
+//     if (validacao === 0) {
+//         console.log(`O número digitado ${num} é par.\nResto da divisão: ${validacao}`);
+//     } else {
+//         console.log(`O número digitado ${num} não é par.\nResto da divisão: ${validacao}`);
+//     }
 
-//2°  exercício (imcompleto)
-console.log(`-- 2° Exercício --`);
-let opcao;
-do {
-    let num = Number(prompt("Digite um número para verificação:"));
-    const validacao = num % 2;
-
-    if (validacao === 0) {
-        console.log(`O número digitado ${num} é par.\nResto da divisão: ${validacao}`);
-    } else {
-        console.log(`O número digitado ${num} não é par.\nResto da divisão: ${validacao}`);
-    }
-
-    opcao = prompt("Deseja sair do loop? Digite 'sim' para sair.").trim().toLowerCase(); 
-} while (opcao !== "sim");
-
+//     opcao = prompt("Deseja sair do loop? Digite 'sim' para sair.").trim().toLowerCase(); 
+// } while (opcao !== "sim");
 
 
 //3°  exercício 
 console.log(`-- 3° Exercício --`);
+
+let varA = 'A'
+let varB = 'B'
+let varC = 'C'
+
+// 1° solução
+const temp = varA
+varA = varB
+varB = varC
+varC = temp
+console.log(`valor de: \n VarA = ${varA}\n VarB = ${varB} \n VarC = ${varC}\n`)
+
+// 2° solução
+varA = 'A'; varB = 'B'; varC = 'C';
+
+[varA, varB, varC] = [varB, varC, varA]
+console.log(`valor de: \n VarA = ${varA}\n VarB = ${varB} \n VarC = ${varC}`)
+
+
+// 4° exercício
+
+ 
