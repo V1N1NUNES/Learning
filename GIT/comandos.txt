@@ -84,7 +84,7 @@
 
 
 * Melhorando os commit's do projeto
- - git rebase com tecnica de private banch's. (criar branch's para fazer a funcionalidade e dar os "commit's ruins" nessa private branch. quando pronto mandar o codigo finalizado e os commit com a mensagem certa dos commit's "bons" e mandar para a branch que sera analisada para o merge)
+ - git rebase com tecnica de private banch's. (criar branch's para fazer a funcionalidade e dar os "commit's ruins" nessa private branch. quando pronto mandar o codigo finalizado e os commit com a mensagem certa dos commit's "bons" e mandar para a branch que sera analisada para o merge) 
  - Boas mensagens de commit: explicação do porque e como do commit, separar assuntos do corpo da mensagem, grafia correta, objetividade da mensagem do commit. Pensar em fazer commit's como se fossem feitas para pessoas leigas lerem e conseguirem entender meu codigo. Dar espaços nos commit's que terei que explicar.  
 
 
