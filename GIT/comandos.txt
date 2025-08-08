@@ -4,6 +4,7 @@
 * inciando um repo
  - git init
  - git add ./nome do arquivo
+ - git restore --staged "." ou "nome_do_arquivo"  (remove os arquivos ou arquivo que foram adicionados a fase de "stage" com git add. Mantendo as alterações feitas no código)
  - git commit -a -m "mensagem de commit"
  - git branch -m "novo nome da branch"
  - git remote add "nome para o branch remoto" (link do repo no github)
