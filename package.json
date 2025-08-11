@@ -1,0 +1,23 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "Este repositório contem arquivos e pastas com conteúdos diversos mostrando de tudo um pouco que estou aprendendo atualmente com exemplos, exercícios e projetos na prática.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V1N1NUNES/Learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/V1N1NUNES/Learning/issues"
+  },
+  "homepage": "https://github.com/V1N1NUNES/Learning#readme",
+  "dependencies": {
+    "fastify": "^5.5.0"
+  }
+}
