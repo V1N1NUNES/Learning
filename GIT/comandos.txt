@@ -149,4 +149,4 @@ int main()
                                                            // Projetos (GitHub pages)//
 * GitHub Pages: alternativa gratuita para hospedar nosso repositório
 - criar o repositorio com "nome_do_seu_github.github.io" ; clonar o repositorio e adcionar código ;
-- "criação dos arquivos html, css na sessão 10 no curso de versionamento de código"
+- "criação dos arquivos html, css na sessão 10 no curso de versionamento de código" 
