@@ -5,7 +5,7 @@ Este repositório contem arquivos e pastas com conteúdos diversos mostrando de 
 
 ### Alguns dos assuntos abordados:
 * Versionamento de código com Git e GitHub
-* Back-end (node.js, TypeScript, Data bases)
+* Back-end (Java, Js + Ts)
 
 #### Considerações finais
 *Este repositótio estará em constante mudança!*

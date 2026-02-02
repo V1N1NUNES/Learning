@@ -1,5 +1,5 @@
 
-                                                       //comandos no Git//
+                                                       //Comandos no Git//
 
 * inciando um repo
  - git init
