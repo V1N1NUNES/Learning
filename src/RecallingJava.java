@@ -1,0 +1,107 @@
+import java.util.ArrayList;
+import java.util.function.DoubleFunction;
+import java.util.stream.Collectors;
+
+public class RecallingJava {
+
+    // TIPOS DE VARIÁVEIS
+    int idade = 19;
+    float salario;
+    double
+    byte
+    short
+    long
+    String nome = "Vinícius";
+    //var ainda não tinha no jdk 17
+    char
+    boolean historia = true;
+
+
+
+    //ESTRUTURAS CONDICIONAIS
+    if(){}
+    else if{}
+    else{}
+    switch(){
+        case 1-> System.out.printf("");
+        case 2 -> System.out.printf("");
+    }
+    String status = (idade >= 18) ? "Maior de idade" : "Menor de idade"; //operador ternário
+
+
+    //VETORES
+    int[] vetor = {1,2,3,4}; //tamanho fixo de vetor
+    float[] vetorDinamico = new float[10];
+
+    //ARRAYLISTS
+    ArrayList<String> nomes = new ArrayList<>();
+    nomes.add("Vinicius");
+
+    //LOOPS
+    for(int i = 1; i < 0 ; i++){}
+    while(){}
+    do {} while
+
+
+    //CASTING - "transformação" dos tipos da variaveis. Mudança de valor
+    double numero = 1.78;
+    int recebido = (int) numero;
+
+    int numero2 = 33;
+    double result = (double) numero2 + 3.3;
+
+    String numint = "333";
+    int valor = integer.parseInt(numint);
+
+    //PROGRAMAÇÃO ORIENTADA A OBJETOS
+
+    //classes
+    //construtores
+    //objetos
+
+
+    //MODIFICADORES DE ACESSO
+
+    //pacotes
+    //public (acessível de qualquer lugar no código)
+    //default (acessivel dentro somente do pacote/pasta que estiver)
+    //private (somente dentro da classe)
+    //protected (acessível somente dentro do pacote)
+
+
+
+    //INTERFACES, CLASSES ABSTRATAS, HERANÇA E POLIMORFISMO
+
+    //Interfaces: modelo/contrato para criação de classes
+    //Classes abstratas:
+    //Herança: Classes que herdam metodos de uma classe mãe
+    //Polimorfismo: Classes que herdam metodos ou atributos de algum lugar mas cada um tem uma forma única de realizar o metodo
+
+
+    //TRATAMENTO DE EXCEÇÕES
+
+    try{} catch()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
