@@ -1,12 +1,6 @@
-import java.util.ArrayList;
-import java.util.function.DoubleFunction;
-import java.util.stream.Collectors;
-
-public class RecallingJava {
-
-    // TIPOS DE VARIÁVEIS
-    int idade = 19;
-    float salario;
+// TIPOS DE VARIÁVEIS
+    int idade
+    float
     double
     byte
     short
@@ -19,9 +13,12 @@ public class RecallingJava {
 
 
     //ESTRUTURAS CONDICIONAIS
-    if(){}
-    else if{}
-    else{}
+    if(){
+    }
+    else if{
+    }
+    else{
+    }
     switch(){
         case 1-> System.out.printf("");
         case 2 -> System.out.printf("");
@@ -81,27 +78,3 @@ public class RecallingJava {
     //TRATAMENTO DE EXCEÇÕES
 
     try{} catch()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
