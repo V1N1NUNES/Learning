@@ -8,6 +8,7 @@
  - git commit -a -m "mensagem de commit"
  - git branch -m "novo nome da branch"
  - git remote add "nome para o branch remoto" (link do repo no github)
+ - git remote -v (mostra a qual repositório do github esta conectada o projeto)
  - git push origin main
              ou
  - git clone (link do repo no github)
