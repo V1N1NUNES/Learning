@@ -8,7 +8,8 @@
  - git commit -a -m "mensagem de commit"
  - git branch -m "novo nome da branch"
  - git remote add "nome para o branch remoto" (link do repo no github)
- - git remote -v (mostra a qual repositório do github esta conectada o projeto)
+ - git remote -v (mostra a qual repositório do github esta conectado o projeto)
+ - git push --set-upstream origin "nome da branch" ou git push -u (serve para poder avisar para o Git que os próximos comandos de git push seram da branch em que está para a branch de mesmo nome remota)
  - git push origin main
              ou
  - git clone (link do repo no github)
