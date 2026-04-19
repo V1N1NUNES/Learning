@@ -117,3 +117,17 @@ Mecanismo para lidar com erros em tempo de execução, evitando o travamento do 
 
 ### Generics
 Definição: Permite que classes, interfaces e métodos operem com tipos específicos definidos pelo usuário, garantindo Type Safety (segurança de tipos) em tempo de compilação e evitando castings excessivos, especialmente útil no uso de Collections.
+
+
+
+### Equals e HashCode
+- equals(): Compara o conteúdo de dois objetos.
+- hashCode(): Retorna um valor inteiro usado em estruturas de hashing.
+
+
+
+### Manipulação de Arquivos (I/O)
+- Leitura: FileReader, BufferedReader.
+- Escrita: FileWriter, BufferedWriter.
+
+
