@@ -1,0 +1,119 @@
+## Tipos Primitivos em Java
+
+- Inteiros: byte (8 bits), short (16 bits), int (32 bits - o mais comum), long (64 bits).
+
+- Ponto Flutuante: float (32 bits), double (64 bits - maior precisão).
+
+- Caractere: char (16 bits, armazena um único caractere Unicode).
+
+- Lógico: boolean (true ou false).
+
+
+
+## Estruturas Condicionais
+
+- if / else if / else: Avalia uma condição. Se verdadeira, executa o bloco; caso contrário, segue para o próximo.
+
+- switch-case: Ideal para múltiplas escolhas baseadas em uma única variável (suporta int, char, String e enum).
+
+- Operador Ternário: Uma forma concisa de if-else: (condição) ? valorSeVerdadeiro : valorSeFalso;
+
+
+
+## Loops (Laços de Repetição)
+
+- while: Verifica a condição antes de executar o bloco.
+
+- do-while: Executa o bloco ao menos uma vez antes de verificar a condição.
+
+- for: Ideal quando se sabe o número de repetições. Composto por inicialização, condição e incremento.
+
+- for-each: Uma sintaxe simplificada para percorrer arrays e coleções: for (Tipo item : colecao).
+
+
+
+## Vetores (Arrays)
+
+- Tamanho Fixo: Uma vez criado, o tamanho do array não pode ser alterado.
+- Indexação: Começam sempre no índice 0.
+- Acesso Direto: Muito eficiente para leitura através do índice.
+
+
+
+## Collections
+
+- List: Permite elementos duplicados e mantém a ordem de inserção (Ex: ArrayList, LinkedList).
+
+- Set: Não permite elementos duplicados (Ex: HashSet, TreeSet).
+
+- Map: Armazena pares de chave-valor (Ex: HashMap, TreeMap).
+
+- Queue: Segue a lógica de filas (Ex: PriorityQueue).
+
+
+
+## Casting
+
+- Casting Implícito (Widening): Conversão de um tipo menor para um maior (ex: int para double). Feito automaticamente.
+
+- Casting Explícito (Narrowing): Conversão de um tipo maior para um menor (ex: double para int). Requer sintaxe manual: (int) valor.
+
+- Casting de Objetos: Upcasting (subir na hierarquia) e Downcasting (descer na hierarquia, requer cautela e o operador instanceof).
+
+
+
+## POO (Programação Orientada a Objetos)]
+
+- Classes e Objetos: A classe é o "molde" (blueprint); o objeto é a instância viva desse molde.
+
+- Construtores: Métodos especiais chamados na criação do objeto para inicializar atributos.
+
+- Herança: Permite que uma classe (subclasse) herde atributos e métodos de outra (superclasse).
+
+- Polimorfismo: Capacidade de um objeto ser referenciado de várias formas (ex: um método com o mesmo nome que se comporta de forma diferente em subclasses - @Override).
+
+- Encapsulamento: Proteção de dados através de modificadores de acesso e métodos getters e setters.
+
+- Classes Abstratas: Podem ter métodos implementados ou não. Não podem ser instanciadas.
+
+- Interfaces: Contratos puramente abstratos (até o Java 8) que definem o que uma classe deve fazer, mas não como.
+
+
+
+## Modificadores de Acesso
+
+- public: Acessível por qualquer classe.
+
+- protected: Acessível na mesma classe, no mesmo pacote ou por subclasses.
+
+- default (sem modificador): Acessível apenas dentro do mesmo pacote.
+
+- private: Acessível apenas dentro da própria classe.
+
+
+
+## Tratamento de Exceções
+Mecanismo para lidar com erros em tempo de execução, evitando o travamento do programa.
+
+- try: Bloco onde o código "perigoso" é executado.
+
+- catch: Captura e trata a exceção caso ela ocorra no bloco try.
+
+- finally: Bloco executado sempre, independentemente de erro ou não (útil para fechar conexões).
+
+- throw / throws: Usados para lançar explicitamente uma exceção ou declarar que um método pode lançar uma.
+
+
+
+### Streams API e Lambdas
+
+- Lambdas: Expressões que permitem tratar funcionalidade como argumento de método, tornando o código mais conciso.
+
+- Streams: Uma sequência de elementos que suporta operações agregadas (filter, map, reduce) para processar coleções de forma funcional e paralela.
+
+- Optional: Uma classe container para evitar o famoso NullPointerException, indicando que um valor pode ou não estar presente.
+
+
+
+### Generics
+Definição: Permite que classes, interfaces e métodos operem com tipos específicos definidos pelo usuário, garantindo Type Safety (segurança de tipos) em tempo de compilação e evitando castings excessivos, especialmente útil no uso de Collections.
