@@ -1,0 +1,52 @@
+# 1) Backend Java — Base sólida
+#### Aqui você sai da teoria solta e entra numa base que sustenta todo o resto.
+
+- Lógica de programação
+- Estruturas de controle
+- Métodos e modularização
+- POO:
+  - classes e objetos
+  - encapsulamento
+  - herança
+  - polimorfismo
+  - abstração
+  - interfaces
+  - classes abstratas
+- Construtores
+- this, static, final
+- Modificadores de acesso
+- Casting
+- - Arrays e Strings
+- Tratamento de exceções
+- Collections:
+  - List
+  - Set
+  - Map
+  - Queue / Deque
+- Streams and Lambdas
+- Generics no básico
+- Java I/O básico
+- Testes unitários básico
+- JDK e ferramentas
+- Maven/Gradle no básico
+- Git e GitHub:
+  - commit
+  - branch
+  - merge
+  - pull request
+  - README
+- SQL básico:
+  - SELECT
+  - WHERE
+  - JOIN
+  - INSERT
+  - UPDATE
+  - DELETE
+- Arquitetura simples (MVC, e outros métodos)
+
+###  O que precisa saber fazer nessa fase
+- Resolver exercícios sem travar em sintaxe
+- Estruturar classes e métodos com naturalidade
+- Usar listas, mapas e conjuntos com segurança
+- Organizar projeto e versão com Git sem medo
+- Fazer consultas simples em banco
