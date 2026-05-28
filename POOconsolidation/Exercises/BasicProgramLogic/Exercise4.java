@@ -1,3 +1,5 @@
+package BasicProgramLogic;
+
 import java.util.Scanner;
 
 public class Exercise4 {

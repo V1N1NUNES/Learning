@@ -1,6 +1,4 @@
-package POOconsolidation;
-
-public class BasicJavaCore {
+public class BasicJavaConcepts(){
 
     //tipos primitivos
     int idade;

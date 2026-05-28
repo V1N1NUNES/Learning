@@ -1,3 +1,5 @@
+package BasicProgramLogic;
+
 public class Exercise5 {
     public static void main(String[] args){
         for(double i =0; i <= 100000; i++){
