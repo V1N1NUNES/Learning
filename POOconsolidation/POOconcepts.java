@@ -8,6 +8,11 @@ public class JavaConcepts(){
     //- Para substituição dos getters, utilizar métodos de vizualização com "this." o código fica mais limpo
     //- Para substituição dos setters, utilizar métodos de modificação que retornam o objeto "atualizado"
     //- utilização de varArgs nas assinaturas dos métodos, ex: public void Test(double variable, "int... numbers"){}
+    //- Sobrecarga de métodos e de construtores (serve para atualização e reaproveitamento de métodos de forma enxuta e oragnizada sem prejudicar o desenvolvimento de código de outros devs)
+
+    //Escapsulamento: Modificadores de acesso que determinam a vizibilidade da classe,método ou atributo em relação ao resto do projeto = private, public, default, protected
+
+
 
 
 }
