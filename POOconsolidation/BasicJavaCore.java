@@ -17,7 +17,7 @@ public class BasicJavaConcepts(){
     //Controle de fluxo e repetição
     // if, else if, else // "assignment variable" = if sintaxe ? __1 possibility__:__2 possibility__  ***
     // switch and case
-    // for, while, do while and foreach ***
+    // for, while, do while and Foreach ***
 
     // continue and break
 
