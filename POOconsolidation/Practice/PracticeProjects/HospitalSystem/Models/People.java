@@ -1,4 +1,4 @@
-package PracticeProjects.Hospital.MVCVersion.Models;
+package PracticeProjects.HospitalSystem.Models;
 
 public abstract class People{
     private String name;
@@ -13,7 +13,6 @@ public abstract class People{
         this.cellphone = cellphone;
     }
 
-    public People getPeople(){
-        return this;
-    }
+    //methods for peoples
+    abstract public People getPeople();
 }

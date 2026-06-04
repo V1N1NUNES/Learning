@@ -1,4 +1,6 @@
-package PracticeProjects.Hospital.MVCVersion.Views;
+package PracticeProjects.HospitalSystem.Views;
+
+import PracticeProjects.HospitalSystem.Models.Doctor;
 
 import java.util.Scanner;
 
@@ -52,15 +54,34 @@ public abstract class Menus {
     }
 
     private static void DoctorMenu(Scanner read){
+        int option;
 
-        System.out.println("Please enter your Doctor name: \n");
-        String name = read.nextLine();
-        System.out.println("What's your Doctor speciality?: \n");
-        String speciality = read.nextLine();
-        System.out.println("Adult or pediatric patients?: \n1- Adult\n2- Child\n");
-        int option = read.nextInt();
+        do{
+            System.out.println("Sing in or create a new register?: \n1- Sing In\n2- Register new\n");
+            option = read.nextInt();
 
-        //verification for option
+            if(option == 1){
+                System.out.println("Please enter your CRM:\n");
+                int crm = read.nextInt();
 
+                //search in database
+            }
+            else if(option == 2){
+                System.out.println("Please enter your name:\n");
+                String name = read.next();
+                System.out.println("Please enter your Doctor speciality: \n");
+                String speciality = read.nextLine();
+                System.out.println("Please enter your CRM:\n");
+                int crm = read.nextInt();
+                System.out.println("Please enter your CPF:\n");
+                String CPF = read.next();
+                System.out.println("Please enter your cellphone:\n");
+                String cellphone = read.next();
+                System.out.println("Please enter your age:\n");
+                int age = read.nextInt();
+
+                Doctor doctor = new Doctor(name, age, CPF, cellphone, crm, speciality);
+            }
+        }while(option > 2 || option < 1);
     }
 }
