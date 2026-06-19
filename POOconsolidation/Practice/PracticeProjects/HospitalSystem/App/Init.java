@@ -10,6 +10,5 @@ public class Init {
 
         //init
         MainMenu(read);
-
     }
 }
