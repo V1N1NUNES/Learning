@@ -1,12 +1,19 @@
 package PracticeProjects.CarRental.Controllers;
 
-import java.util.Scanner;
+import PracticeProjects.CarRental.Repository.ClientRepository;
 
 public class ClientController {
-    public void ClientControllerAccount(int option, String id){
+
+    public boolean ClientControllerAccount(int option, String id){
+        //variables for workflow
+        ClientRepository clientRepo = new ClientRepository();
+        boolean validation = false;
 
         if(option==1){
-            //call repository (search and return controller)
+            //call repository (search and return)
+            if(clientRepo.ClientSearch(id)){
+                validation = true;
+            };
         }else{
             //call repository (create new Client account)
         }

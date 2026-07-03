@@ -3,6 +3,9 @@ public class JavaConcepts(){
     //Classes: moldes para criar objetos de tipos definidos
     //Para ajudar na estruturação do projeto, uma boa prática é utilizar modeladores de sistema como UML para poder estruturar o sistema antes de codificar.
     //Uma boa prática para código limpo é criar objetos para executar uma tarefa rápida sem a variável de referência. Assim, o objeto é criado, executa o código e logo em seguida é descartado.
+    //Blocos de inicialização servem para poder inicializar partes de código na criação ou até antes da criação de um objeto
+    //ordem de inicialização e criação de um objeto: 1- Blocos de incialização static são executados no carregamento da classe (são executados apenas 1 vez), 2- alocação de memória para o objeto que será criado, 3- cada atributo de classe é criado e inicializado com valores default, 4- Blocos de inicialização são executados, 5- Os construtores são executados
+
 
     //Modificadores de acesso:
     // - public: torna a variável, classe ou método visivel a qualquer lugar do projeto

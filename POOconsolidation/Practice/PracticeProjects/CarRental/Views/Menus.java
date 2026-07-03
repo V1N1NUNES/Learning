@@ -2,13 +2,16 @@ package PracticeProjects.CarRental.Views;
 
 import PracticeProjects.CarRental.Controllers.ClientController;
 import PracticeProjects.CarRental.Controllers.MenusController;
+import PracticeProjects.CarRental.Models.Client;
 
 import java.util.Scanner;
 
 public class Menus {
 
+    //variables for workflow
     private Menus menu =  new Menus();
     private ClientController clientController = new ClientController();
+    private Client client = new Client();
     private MenusController menusController = new MenusController();
 
     //interaction Menus
@@ -50,11 +53,8 @@ public class Menus {
 
             //call repository (search and validation)
             clientController.ClientControllerAccount(option, id);
-            return;
-        }
 
-
-        if (option == 2){
+        }else{
             int select;
 
             do{
