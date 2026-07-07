@@ -6,13 +6,12 @@ import java.util.Scanner;
 
 public class MenusController {
     //reference variables for workflow
-    Scanner read;
 
-    public void MainMenuController(int option, Menus menu) {
+    public void MainMenuController(int option, Menus menu, Scanner read) {
 
         switch(option){
             case 1: //call client Menu
-                menu.ClientRegistrationMenu(read);
+                menu.ClientMenu(read);
                 break;
             case 2: //call Vehicle Menu
                 menu.VehicleRegistrationMenu(read);

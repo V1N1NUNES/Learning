@@ -9,17 +9,20 @@ import java.util.Scanner;
 public class Menus {
 
     //variables for workflow
-    private Menus menu =  new Menus();
-    private ClientController clientController = new ClientController();
-    private Client client = new Client();
-    private MenusController menusController = new MenusController();
+    private final ClientController clientController = new ClientController();
+    private final Client client = new Client();
+    private final MenusController menusController = new MenusController();
+    Scanner read;
 
     //interaction Menus
     public void MainMenu(Scanner read){
+        this.read = read;
+
         int option;
+        System.out.println("---------------------------------");
+        System.out.println("WELCOME ON CAR RENTAL\n");
 
         do {
-            System.out.println("WELCOME ON CAR RENTAL\n");
             System.out.println("Select option:\n1- Client\n2- Vehicle Registration\n3- Employee\n0- Exit");
             option = read.nextInt();
 
@@ -30,13 +33,18 @@ public class Menus {
         }while(option < 0 || option > 3);
 
         //call controller
-        menusController.MainMenuController(option, menu);
+        menusController.MainMenuController(option,this, read);
     }
 
     //Client Menu
-    public void ClientRegistrationMenu(Scanner read){
+    public void ClientMenu(Scanner read){
+        this.read = read;
+        //variables for workflow
         int option;
-        String id = null;
+        String id;
+
+        System.out.println("---------------------------------");
+        System.out.println("CLIENT MENU\n");
 
         do {
             System.out.println("Has an account?\n1- Yes\n2- No");
@@ -47,31 +55,39 @@ public class Menus {
             }
         }while(option < 0 || option > 2);
 
-        if (option == 1){
-            System.out.println("Enter Client ID:");
-            id = read.nextLine();
+        //update for use switchcase for choice
+        if(option == 1){
 
-            //call repository (search and validation)
-            clientController.ClientControllerAccount(option, id);
+            System.out.println("Enter with ClientId: ");
+            id = read.next();
 
+            //call searchClientRepo
+            if(clientController.ClientManagerAccount(id)){
+                System.out.println("Client with:");
+                client.setId(id);
+                System.out.println("Is found!\n");
+
+                //continue menuClient (add, update and delete client)
+            }else{
+                System.out.println("Client is not found, returning main menu\n\n");
+                this.MainMenu(read);
+            }
         }else{
-            int select;
-
             do{
-                System.out.println("Want create an account?\n1- Yes\n2- No");
-                select = read.nextInt();
+                System.out.println("Want create a new Login?\n1- Yes\n2- No");
+                option = read.nextInt();
 
-                if(select < 1 || select > 2){
+                if(option < 0 || option > 2){
                     System.out.println("Invalid option, try again\n\n");
                 }
-            }while(select < 1 || select > 2);
+            }while(option < 1 || option > 2);
 
-            if (select == 1){
-                //call ClientController
-                clientController.ClientControllerAccount(option, id);
+            if(option == 1){
+                //call ClientControllerAccount
+                clientController.ClientControllerAccount(option);
             }else{
-                System.out.println("Returning main menu...\n\n");
-                menu.MainMenu(read);
+                System.out.println("Returning main menu\n\n");
+                this.MainMenu(read);
             }
         }
     }

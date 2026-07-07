@@ -4,18 +4,19 @@ import PracticeProjects.CarRental.Repository.ClientRepository;
 
 public class ClientController {
 
-    public boolean ClientControllerAccount(int option, String id){
+    public boolean ClientManagerAccount(String id){
         //variables for workflow
         ClientRepository clientRepo = new ClientRepository();
-        boolean validation = false;
+        boolean validation = true;
 
-        if(option==1){
-            //call repository (search and return)
             if(clientRepo.ClientSearch(id)){
-                validation = true;
-            };
-        }else{
-            //call repository (create new Client account)
-        }
+                return validation;
+            }else{
+                validation = false;
+            }
+        return validation;
+    }
+    public void ClientControllerAccount(int option){
+        ClientRepository clientRepo = new ClientRepository();
     }
 }

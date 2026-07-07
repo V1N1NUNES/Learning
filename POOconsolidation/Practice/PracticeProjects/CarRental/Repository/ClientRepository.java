@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public class ClientRepository {
     //variables for workflow
-    Scanner read = new Scanner(System.in);
 
     //Memories Data bases
     ArrayList<Client> clients =  new ArrayList<Client>();
@@ -26,5 +25,17 @@ public class ClientRepository {
             }
         }
         return option;
+    }
+
+    public void AddClient(){
+
+    }
+
+    public void DeleteClient(){
+
+    }
+
+    public void UpdateClient(){
+
     }
 }

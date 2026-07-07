@@ -19,7 +19,7 @@ public class Client {
 
     //methods getters and setters
     public void showClient(){
-        System.out.println("Client " + "Id:" + this.id+ "Name:" + this.name+ "MailContact:" +this.email + " Client Age:"+ this.age);
+        System.out.println("Id:" + this.id+ "Name:" + this.name+ "MailContact:" +this.email + " Client Age:"+ this.age);
     }
 
     public int getAge() {
