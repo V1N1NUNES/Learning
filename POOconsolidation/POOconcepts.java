@@ -6,7 +6,6 @@ public class JavaConcepts(){
     //Blocos de inicialização servem para poder inicializar partes de código na criação ou até antes da criação de um objeto
     //ordem de inicialização e criação de um objeto: 1- Blocos de incialização static são executados no carregamento da classe (são executados apenas 1 vez), 2- alocação de memória para o objeto que será criado, 3- cada atributo de classe é criado e inicializado com valores default, 4- Blocos de inicialização são executados, 5- Os construtores são executados
 
-
     //Modificadores de acesso:
     // - public: torna a variável, classe ou método visivel a qualquer lugar do projeto
     // - private: torna a variável, classe ou método visivel somente dentro da classe em que foi criado
