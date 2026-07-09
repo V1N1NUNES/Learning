@@ -16,7 +16,7 @@
 - this, static, final
 - Modificadores de acesso
 - Casting
-- - Arrays e Strings
+- Arrays e Strings
 - Tratamento de exceções
 - Collections:
   - List

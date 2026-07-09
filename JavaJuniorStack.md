@@ -13,6 +13,7 @@
   - DTO
   - request/response
 - JPA / Hibernate
+- UML básica
 - Relacionamentos entre entidades:
   - 1:1
   - 1:N
