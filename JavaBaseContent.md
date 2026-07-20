@@ -26,7 +26,7 @@
 - Streams and Lambdas
 - Generics no básico
 - Java I/O básico
-- Testes unitários básico
+- Testes unitários básico com JUnit
 - JDK e ferramentas
 - Maven/Gradle no básico
 - Git e GitHub:

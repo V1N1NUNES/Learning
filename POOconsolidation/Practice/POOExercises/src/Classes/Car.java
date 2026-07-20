@@ -21,7 +21,6 @@ public class Car {
     public Car(){
         //void constructor
     }
-
     //methods getters and setters
     public String getManufacturer() {
         return manufacturer;

@@ -50,9 +50,9 @@ public class JavaConcepts(){
 
     //-----------------------------------------------------
 
-    //MODIFICADORES DE ACESSO:
+    //MODIFICADORES DE ACESSO E DE NÃO-ACESSO:
     // - public: torna a variável, classe ou método visivel a qualquer lugar do projeto
-    // - private: torna a variável, classe ou método visivel somente dentro da classe em que foi criado
+    // - private: torna a variável ou método visivel somente dentro da classe em que foi criado
     // - protected: torna a variável, classe ou método visivel somente dentro do pacote em que esta a classe
     // - static: torna a variável ou método pertencente a classe em que foi criada, e não ao objeto instânciado da classe
     // - final: torna a variável, classe ou método imutável á alterações, modificações ou sobrescritas.
