@@ -1,4 +1,4 @@
-package PracticeProjects.CarRental.Views;
+package PracticeProjects.B_CarRental.Views;
 
 import java.util.Scanner;
 

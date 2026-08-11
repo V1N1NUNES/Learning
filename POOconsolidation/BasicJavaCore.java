@@ -1,6 +1,7 @@
 public class BasicJavaConcepts(){
 
     //tipos primitivos
+    byte menor;
     int idade;
     float peso;
     double contaBancaria;
@@ -10,16 +11,17 @@ public class BasicJavaConcepts(){
     char cat;
     String nome;
 
-    //Operadores lógicos, de atribuição
+    //Operadores
+    //++, --, +, -, (), !, *, /, //, %, **
     // && "and", || "or"
     // =, -=, +=. *=, /=, %=
+    //>, <, >=, <=
 
     //Controle de fluxo e repetição
-    // if, else if, else // "assignment variable" = (if sintaxe) ? __1 possibility__:__2 possibility__  ***
-    // switch and case
+    // if, else if, else  switch and case, "assignment variable" = (if sintaxe) ? __1 possibility__:__2 possibility__  ***
     // for, while, do while and Foreach (for(variable type : collection/array)) ***
 
-    // continue and break
+    // continue, break and return
 
     //arrays
     int []colection = new int[10];

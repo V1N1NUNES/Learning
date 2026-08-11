@@ -1,6 +1,6 @@
-package PracticeProjects.CarRental.App;
+package PracticeProjects.B_CarRental.App;
 
-import PracticeProjects.CarRental.Views.Menus;
+import PracticeProjects.B_CarRental.Views.Menus;
 
 import java.util.Scanner;
 
