@@ -25,7 +25,7 @@ public class CadastroPessoa {
 
     @Override
     public String toString() {
-        return "Pessoa{" +
+        return "Funcionario{" +
                 "nome='" + nome + '\'' +
                 ", CPF=" + CPF +
                 ", tipoCliente=" + tipoCliente +

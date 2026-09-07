@@ -13,7 +13,7 @@ public class CadastroExe {
         String nome = sc.nextLine();
         System.out.println("Digite o CPF do cliente: ");
         double cpf = sc.nextDouble();
-        System.out.println("O cliente é pessoa física o jurídica?\n1- Pessoa Física\n2- Pessoa Jurídica");
+        System.out.println("O cliente é pessoa física o jurídica?\n1- Funcionario Física\n2- Funcionario Jurídica");
         int opcao = sc.nextInt();
 
         TipoCliente tipoCliente = null;

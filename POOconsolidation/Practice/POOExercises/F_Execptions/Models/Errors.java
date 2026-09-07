@@ -7,7 +7,7 @@ public class Errors {
     //runtimeExceptions -> unchecked (Acontece bastante por erro de lógica)
     //Execeptions -> checked (Acontece por erros que não dependem do programador ou da lógica)
 
-    public void estourandoMemoria() {
+    public void estourandoMemoria(){
         this.estourandoMemoria();
     }
 }
