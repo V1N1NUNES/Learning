@@ -21,8 +21,6 @@ public class OperationExeptionsTest {
         System.out.println("Digite o valor que deseja sacar:");
         float valorSaque = sc.nextFloat();
 
-        Operations.sacar(valorSaque);
-
-
+//        Operations.sacar(valorSaque);
     }
 }

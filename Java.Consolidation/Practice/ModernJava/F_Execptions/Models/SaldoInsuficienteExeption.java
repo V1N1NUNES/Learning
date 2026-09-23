@@ -1,10 +1,8 @@
 package ModernJava.F_Execptions.Models;
 
-public class SaldoInsuficienteExeption extends RuntimeException{
+public class SaldoInsuficienteExeption extends Exception{
 
     public SaldoInsuficienteExeption(){
-        super("Saldo insuficiente ");
+        super("Saldo da conta insuficiente boy");
     }
-
-
 }
