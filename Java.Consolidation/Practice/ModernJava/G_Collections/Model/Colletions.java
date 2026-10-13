@@ -144,4 +144,5 @@ public class Colletions {
     public boolean removerCadastro(Pessoa pessoa) {
         return cadastros.remove(pessoa) != null;
     }
+
 }
